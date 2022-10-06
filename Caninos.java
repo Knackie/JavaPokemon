@@ -1,4 +1,4 @@
-public class Caninos extends Type{
+public class Caninos extends Feu{
 	private String espece;
 	
 	public Caninos(String nom, int pvmax, int attaque, int x, int y){
