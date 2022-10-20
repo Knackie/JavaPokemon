@@ -1,4 +1,4 @@
-public class Snorlax extends Type{
+public class Snorlax extends Humungosaur{
 	private String espece;
 	
 	public Snorlax(String nom, int pvmax, int attaque, int x, int y){
