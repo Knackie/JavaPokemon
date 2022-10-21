@@ -1,20 +1,20 @@
-public class Charmander extends Type{
+public class Charmander extends fire{
 	private String espece;
 	
 	public Charmander(String nom, int pvmax, int attaque, int x, int y){
 		super(nom,pvmax,attaque,x,y);
-		espece="";
+		espece="Charmander";
 	}
 	
 	
 	public Charmander(String nom, int pvmax, int attaque) {
 		super(nom,pvmax,attaque);
-		espece="";
+		espece="Charmander";
 	}
 	
 	public Charmander(){
 		super();
-		espece="";
+		espece="Charmander";
 	}
 	
 	public String toString(){
