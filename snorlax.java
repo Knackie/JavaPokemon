@@ -3,18 +3,18 @@ public class Snorlax extends normal{
 	
 	public Snorlax(String nom, int pvmax, int attaque, int x, int y){
 		super(nom,pvmax,attaque,x,y);
-		espece="";
+		espece="Snorlax";
 	}
 	
 	
 	public Snorlax(String nom, int pvmax, int attaque) {
 		super(nom,pvmax,attaque);
-		espece="";
+		espece="Snorlax";
 	}
 	
 	public Snorlax(){
 		super();
-		espece="";
+		espece="Snorlax";
 	}
 	
 	public String toString(){
